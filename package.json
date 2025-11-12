@@ -1,0 +1,36 @@
+{
+  "name": "ct-web-starterkit-vite",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@linaria/core": "6.2.0",
+    "@linaria/react": "6.2.0",
+    "clad-ui": "2.0.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^24.9.2",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@wyw-in-js/babel-preset": "^0.7.0",
+    "@wyw-in-js/vite": "^0.7.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "esbuild": "^0.24.2",
+    "lodash-es": "^4.17.21",
+    "typescript": "^5.5.4",
+    "vite": "^6.0.11"
+  }
+}
