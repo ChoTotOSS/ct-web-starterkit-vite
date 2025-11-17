@@ -29,12 +29,12 @@ import {
   TextArea,
   ToggleSwitch,
   Tooltip,
-} from 'clad-ui';
-import { PaymentInfo } from 'clad-ui/icons';
-import { sx } from 'clad-ui/utils';
+} from '@chotot/clad-ui';
+import { PaymentInfo } from '@chotot/clad-ui/icons';
+import { sx } from '@chotot/clad-ui/utils';
 import type { ChangeEvent } from 'react';
 import { useState } from 'react';
-import theme from 'clad-ui/theme';
+import theme from '@chotot/clad-ui/theme';
 
 // scoped class-based CSS
 

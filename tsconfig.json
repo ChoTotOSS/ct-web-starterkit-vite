@@ -20,9 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Path mapping for clad-ui theme */
+    /* Path mapping for @chotot/clad-ui theme */
     "paths": {
-      "@clad-ui/theme": ["./src/theme/index.ts"]
+      "@@chotot/clad-ui/theme": ["./src/theme/index.ts"]
     }
   },
   "include": ["src"]

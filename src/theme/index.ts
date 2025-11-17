@@ -1,7 +1,7 @@
 // import the theme to use for this web app (from compiled dist)
-import theme from 'clad-ui/theme/chotot';
+import theme from '@chotot/clad-ui/theme/chotot';
 
-// new from clad-ui@1.2
+// new from @chotot/clad-ui@1.2
 export type {
   alias,
   BorderWidths,
@@ -18,7 +18,7 @@ export type {
   Sizes,
   Space,
   ZIndices,
-} from 'clad-ui/theme';
+} from '@chotot/clad-ui/theme';
 
 /**
  * extend and override custom tokens for theme here

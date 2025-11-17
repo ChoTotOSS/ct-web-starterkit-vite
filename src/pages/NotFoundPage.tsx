@@ -1,8 +1,8 @@
 import { css } from '@linaria/core';
-import { EmptyState } from 'clad-ui';
+import { EmptyState } from '@chotot/clad-ui';
 import { Link } from 'react-router-dom';
-import theme from 'clad-ui/theme';
-import { sx } from 'clad-ui/utils';
+import theme from '@chotot/clad-ui/theme';
+import { sx } from '@chotot/clad-ui/utils';
 
 const pageClass = css`
   background-color: ${theme.colors.backgroundPrimary};
