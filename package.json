@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "extract": "rm -rf src/clad-ui/dist && mkdir -p src/clad-ui && tar -xzf packages/chotot-clad-ui-*.tgz -C src/clad-ui --strip-components=1 package/dist && echo 'Extracted clad-ui from tgz to src/clad-ui/dist'"
   },
   "dependencies": {
     "@linaria/core": "6.2.0",
@@ -15,12 +16,14 @@
     "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-laag": "^2.0.5",
     "react-router-dom": "^7.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
+    "@styled-system/css": "^5.1.5",
     "@types/node": "^24.9.2",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
@@ -31,7 +34,7 @@
     "esbuild": "^0.24.2",
     "lodash-es": "^4.17.21",
     "typescript": "^5.5.4",
-    "vite": "^6.0.11"
+    "vite": "^5.4.18"
   },
   "packageManager": "pnpm@8.15.6"
 }
